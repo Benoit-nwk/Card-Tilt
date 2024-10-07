@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+:root{
+      
+      --dark: #2C2C2C ;
+      --white: #F5F5F5 ;
+      --jersey10: 'Jersey 10';
+}
+
+html,body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100dvh;
+      width: 100dvw;
+      background-color: var(--dark);
+      margin: 0;
+}
+
+h1{
+      font-family: var(--jersey10);
+      font-size: 4rem;
+      color: var(--white);
+      text-align: center;
+      letter-spacing: 0.2rem;
+}
+
+.tab-of-card{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5rem;
+}
+
+img{
+      border: 0.3rem solid #F5F5F5;
+}
