@@ -1,29 +1,17 @@
-# card-tilt
+# Card-Tilt
 
-This template should help get you started developing with Vue 3 in Vite.
+Projet réalisé avec la bibliothèque Vanilla-tilt.js.
 
-## Recommended IDE Setup
+Projet réalisé pour la compréhension de la bibliothèque au travers d'un Framework.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Lancement
 
-## Customize configuration
+- Assurez vous de bien avoir installé au préalable node.js
+- Clonez le repo
+- Déplacez vous dans le dossier du repo avec la commande cd nom_du_dossier
+- Lancez ensuite la commande npm install
+- Lancez ensuite la commande npm run dev
+- Enjoy!
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Technologies et langages de programmation du projet
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,nodejs,vue,figma,vscode,git,github&perline=50)](https://skillicons.dev)
