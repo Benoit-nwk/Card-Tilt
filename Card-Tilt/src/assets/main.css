@@ -18,9 +18,10 @@ html,body{
 
 h1{
       font-family: var(--jersey10);
-      font-size: 3rem;
+      font-size: 4rem;
       color: var(--white);
       text-align: center;
+      letter-spacing: 0.2rem;
 }
 
 .tab-of-card{
@@ -31,5 +32,5 @@ h1{
 }
 
 img{
-      border-radius: 1rem;
+      border: 0.3rem solid #F5F5F5;
 }
