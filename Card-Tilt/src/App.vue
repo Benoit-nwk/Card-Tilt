@@ -1,14 +1,14 @@
 <script setup>
-
+import Reload from './components/Reload.vue';
 let numberOfTheImage = 0
-let urlOfImage = ``
+
 
 let tabOfImages = []
 
 const getNumber = () => {
     while(numberOfTheImage<=2){
       numberOfTheImage++
-      urlOfImage = `https://picsum.photos/200/300?random=${numberOfTheImage}`
+      let urlOfImage = `https://picsum.photos/330/500?random=${numberOfTheImage}`
       tabOfImages.push(urlOfImage);
       
     }
@@ -18,23 +18,16 @@ getNumber()
 </script>
 
 <template>
+  <h1>Card-Tilt</h1>
   <div class="tab-of-card">
 <div v-for="image in tabOfImages">
   <img :src="image" alt="randomImage">
 </div>
 </div>
+<Reload/>
 </template>
 
 <style scoped>
-.tab-of-card{
-  height: 100dvh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5rem;
-}
 
-img{
-  border-radius: 1rem;
-}
+
 </style>
